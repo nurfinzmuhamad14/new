@@ -15,13 +15,13 @@ $(call inherit-product, device/xiaomi/chime/device.mk)
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bootleg_chime
-PRODUCT_DEVICE := chime
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := SM6115
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_NAME := bootleg_RMX2195
+PRODUCT_DEVICE := RMX2195
+PRODUCT_BRAND := Realme
+PRODUCT_MODEL := Bengal
+PRODUCT_MANUFACTURER := Realme
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 # Flags
 TARGET_BOOTLEG_ARCH := arm64
@@ -36,5 +36,5 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Maintainer
-DEVICE_MAINTAINERS := hani~🤍
+DEVICE_MAINTAINERS := UdyneOS
 BOOTLEGGERS_BUILD_TYPE := Shishufied

@@ -8,7 +8,7 @@
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/chime/chime-vendor.mk)
+$(call inherit-product, vendor/realme/RMX2195/RMX2195-vendor.mk)
 
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
@@ -17,7 +17,7 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/realme
 
 # Product Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
